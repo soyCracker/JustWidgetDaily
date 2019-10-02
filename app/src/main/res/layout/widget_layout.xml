@@ -1,0 +1,37 @@
+<LinearLayout
+    android:id="@+id/widget_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/scriptHeader_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:autoSizeTextType="uniform"
+        android:background="@color/colorWhiteGreen"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:text="Hello World"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/colorGray"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/scriptFrom_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPurple"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="textEnd"
+        android:autoSizeTextType="uniform"
+        android:textColor="@color/colorPurpleWhite"
+        android:textStyle="bold"
+        android:paddingRight="10dp"/>
+
+</LinearLayout>
