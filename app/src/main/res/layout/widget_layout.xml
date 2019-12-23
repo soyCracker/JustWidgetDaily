@@ -1,5 +1,4 @@
-<LinearLayout
-    android:id="@+id/widget_button"
+<LinearLayout android:id="@+id/widget_button"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -12,26 +11,24 @@
         android:layout_height="0dp"
         android:layout_weight="4"
         android:autoSizeTextType="uniform"
-        android:background="@color/colorWhiteGreen"
-        android:fontFamily="sans-serif-black"
+        android:background="@color/colorPurple"
+        android:fontFamily="sans-serif-medium"
         android:padding="10dp"
         android:text="Hello World"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:textColor="@color/colorGray"
-        android:textStyle="bold" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorLightBlue" />
 
     <TextView
         android:id="@+id/scriptFrom_text"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/colorPurple"
-        android:fontFamily="sans-serif-black"
-        android:textAlignment="textEnd"
         android:autoSizeTextType="uniform"
-        android:textColor="@color/colorPurpleWhite"
-        android:textStyle="bold"
-        android:paddingRight="10dp"/>
+        android:background="@color/colorLightBlue"
+        android:fontFamily="sans-serif-medium"
+        android:paddingRight="10dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorGray" />
 
 </LinearLayout>

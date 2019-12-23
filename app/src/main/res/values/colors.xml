@@ -6,9 +6,10 @@
     <color name="colorTransparent">#00000000</color>
     <color name="colorHalfTransparent">#e0000000</color>
     <color name="colorWhite">#FFFFFF</color>
-    <color name="colorPurple">#5941A9</color>
+    <color name="colorPurple">#8E44AD</color>
     <color name="colorBlack">#000000</color>
     <color name="colorGray">#514F59</color>
     <color name="colorPurpleWhite">#E5D4ED</color>
     <color name="colorWhiteGreen">#F2FDFF</color>
+    <color name="colorLightBlue">#EBF5FB</color>
 </resources>
